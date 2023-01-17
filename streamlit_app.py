@@ -4,9 +4,10 @@
 # 
 import streamlit as st
 import pandas as pd
-df= pd.read_excel(r'C:\Users\peh\OneDrive\1 Finance\2023 Finanz Analyse\Python\Data\Reference\entries.xlsx')
+fn = r"C:/Users/peh/OneDrive/1 Finance/2022 Finanz Analyse/Python/Data/Reference/entries.xlsx"
+Entries = pd.read_excel(fn)
 st.write('Hello world!')
-st.write(df)
+st.write(Entries)
 
 import streamlit as st
 
