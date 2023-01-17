@@ -3,8 +3,10 @@
 
 # 
 import streamlit as st
-
+import pandas as pd
+df= pd.read_excel(r'C:\Users\peh\OneDrive\1 Finance\2023 Finanz Analyse\Python\Data\Reference\entries.xlsx')
 st.write('Hello world!')
+st.write(df)
 
 import streamlit as st
 
