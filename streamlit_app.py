@@ -15,6 +15,7 @@ onedrive_link='https://1drv.ms/x/s!AoEzYwQs3f9mkIQBeQNATkGFw3xcgw?e=7rbGfn'
      
 
 x=create_onedrive_directdownload (onedrive_link)
+st.write(x)
 h = pd.read_excel(x)
 st.write('Hello world!')
 st.write(onedrive_link)
