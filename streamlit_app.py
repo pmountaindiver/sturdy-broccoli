@@ -13,9 +13,9 @@ def create_onedrive_directdownload (onedrive_link):
 #fn = r"C:/Users/peh/OneDrive/1 Finance/2022 Finanz Analyse/Python/Data/Reference/entries.xlsx"
 onedrive_link=https://1drv.ms/x/s!AoEzYwQs3f9mkIQBeQNATkGFw3xcgw?e=7rbGfn
      
-x = pd.read_excel(create_onedrive_directdownload (onedrive_link))
+#x = pd.read_excel(create_onedrive_directdownload (onedrive_link))
 st.write('Hello world!')
-st.write(x)
+st.write(create_onedrive_directdownload (onedrive_link))
 
 import streamlit as st
 
