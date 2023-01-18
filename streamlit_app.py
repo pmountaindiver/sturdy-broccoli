@@ -13,11 +13,12 @@ def create_onedrive_directdownload (onedrive_link):
 #fn = r"C:/Users/peh/OneDrive/1 Finance/2022 Finanz Analyse/Python/Data/Reference/entries.xlsx"
 onedrive_link='https://1drv.ms/x/s!AoEzYwQs3f9mkIQBeQNATkGFw3xcgw?e=7rbGfn'
      
-#x = pd.read_excel(onedrive_link)
+
 x=create_onedrive_directdownload (onedrive_link)
+h = pd.read_excel(x)
 st.write('Hello world!')
 st.write(onedrive_link)
-st.write(x)
+st.write(h)
 st.header('Ciao Bello')
 
 if st.button('Say hello'):
