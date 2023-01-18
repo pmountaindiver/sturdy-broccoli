@@ -15,9 +15,7 @@ onedrive_link=https://1drv.ms/x/s!AoEzYwQs3f9mkIQBeQNATkGFw3xcgw?e=7rbGfn
      
 #x = pd.read_excel(create_onedrive_directdownload (onedrive_link))
 st.write('Hello world!')
-st.write(create_onedrive_directdownload (onedrive_link))
-
-import streamlit as st
+st.write(onedrive_link)
 
 st.header('Ciao Bello')
 
